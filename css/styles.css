@@ -180,21 +180,25 @@ progress::-webkit-progress-value {
 } 
 
 .center {
-   display: flex;
-   justify-content: center;
+   display: block;
    float: none;
-   # margin-left: auto;
-   # margin-right: auto;
-   padding: 20px;
-   width: 100%;
-   max-width: 720px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px 0px;
+   width: 80%;
 }
 
 .left {
-   display: inline-block;
+   display: block;
    float: none;
    margin-left: 0px;
-   max-width: 640px;
+   padding: 10px 0px;
+   max-width: 100%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 #figure-caption {
